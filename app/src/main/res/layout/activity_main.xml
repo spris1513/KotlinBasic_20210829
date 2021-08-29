@@ -8,5 +8,9 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그 확인용 버튼" />
 
 </LinearLayout>
