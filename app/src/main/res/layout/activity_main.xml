@@ -26,5 +26,12 @@
         android:layout_height="wrap_content"
         android:text="토스트 띄우기"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="저는 이진호 입니다."
+        android:id="@+id/IntBtn"/>
+
+
 
 </LinearLayout>
