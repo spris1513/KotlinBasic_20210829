@@ -11,6 +11,27 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+//       한 사용자의 나이를 17살이라고 저장.
+        val userAge = 8
+
+//       이사람이 성인인가? 나이가 20살 이상인가?
+        if(userAge >= 20) {
+//            if ( ) 내부의 질문 결과가 true일때만 실행됨.
+            Log.d("if문 예시", "성인이 맞습니다.")
+        }
+
+        else if ( userAge >= 17){
+//            20살 미만 + 17살 이상인 경우.
+            Log.d("if문 예시","고등학생입니다.")
+        }
+        else if( userAge  >= 14 ){
+            Log.d("if문 예시","중학생입니다.")
+        }
+        else {
+            Log.d("if문 예시","초등학생 or 미취학아동입니다.")
+        }
+
+
 
 
 
